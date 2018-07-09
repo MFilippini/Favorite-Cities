@@ -116,9 +116,9 @@ class MasterViewController: UITableViewController {
         }
     }
 
-    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
         let objectToMove = cities.remove(at: sourceIndexPath.row)
-        cities.insert(objectToMove,at: destinationIndexPath)
+        cities.insert(objectToMove,at: destinationIndexPath.row)
     }
 
 }
