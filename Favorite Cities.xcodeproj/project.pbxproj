@@ -13,6 +13,7 @@
 		49B7A5D020F3A728008DCFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B7A5CE20F3A728008DCFEF /* Main.storyboard */; };
 		49B7A5D220F3A72A008DCFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B7A5D120F3A72A008DCFEF /* Assets.xcassets */; };
 		49B7A5D520F3A72A008DCFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B7A5D320F3A72A008DCFEF /* LaunchScreen.storyboard */; };
+		49B7A5DD20F3ACA5008DCFEF /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B7A5DC20F3ACA5008DCFEF /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		49B7A5D120F3A72A008DCFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B7A5D420F3A72A008DCFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49B7A5D620F3A72A008DCFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B7A5DC20F3ACA5008DCFEF /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				49B7A5CA20F3A728008DCFEF /* MasterViewController.swift */,
 				49B7A5CC20F3A728008DCFEF /* DetailViewController.swift */,
 				49B7A5CE20F3A728008DCFEF /* Main.storyboard */,
+				49B7A5DC20F3ACA5008DCFEF /* City.swift */,
 				49B7A5D120F3A72A008DCFEF /* Assets.xcassets */,
 				49B7A5D320F3A72A008DCFEF /* LaunchScreen.storyboard */,
 				49B7A5D620F3A72A008DCFEF /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				49B7A5CD20F3A728008DCFEF /* DetailViewController.swift in Sources */,
 				49B7A5CB20F3A728008DCFEF /* MasterViewController.swift in Sources */,
+				49B7A5DD20F3ACA5008DCFEF /* City.swift in Sources */,
 				49B7A5C920F3A728008DCFEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
